@@ -1,4 +1,4 @@
-# Coursera_Capstone
+# Coursera Capstone Project - The Battle of Neighborhoods
 
 # Introduction
 The Goal of this study is to enable a restaurant chain to plan their investiment and open new restaurants in my city, Belo Horizonte - Minas Gerais - Brazil. Belo Horizonte is the capital of the state and one of the most populated cities in Brazil, having a population of 2,5 million people in the city, but almost 5 million when adding population from the nearby cities. However, the city is formed by different types of neighborhoods in which rich and poor people live. This way, it is important to evaluate the characteristics of these neighborhoods to determine in which one should they open their first restaurant.
@@ -36,5 +36,16 @@ Finally I could run the clustering algorithm in which I considered that I wanted
 ![](images/map2.png)
 
 # Results
+Now with the dataframe regarding the information for each neighborhood with the cluster label we are able to analyze the characteristics of theses clusters. I find that the clusters 0 and 2 are very similiar to each other, where the most common venue types are bakeries, markets, restaurants, pizza places, and other venues that serve food or sell every-day products. But in the cluster 0 we can already see that there are also a lot of other venues like soccer fields, gyms, theaters, and in cluster 2 there are venues likes farmacies, plazas and gyms.
+
+Cluster 0
+![](images/df5.png)
 
 
+Cluster 2
+![](images/df6.png)
+
+For cluster 1, in which there are just three neighborhoods, we can notice a big difference, in which the first most common venue is food truck, and then bars, stores and event places.
+
+Cluster 1
+![](images/df7.png)
