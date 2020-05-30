@@ -6,3 +6,5 @@ The Goal of this study is to enable a restaurant chain to plan their investiment
 # Data
 The data regarding the list of neighborhoods and their respective boroughs will be extracted from https://pt.wikipedia.org/wiki/Lista_de_bairros_de_Belo_Horizonte, 
 
+![](images/BH.png)
+
