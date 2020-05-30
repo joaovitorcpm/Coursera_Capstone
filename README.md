@@ -19,3 +19,22 @@ Next step was visualizing all neighborhoods in a map, so I used Folium to add ma
 
 ![](images/map1.png)
 
+Now, proceeding to gathering data about the venues, Foursquare API was utilized to search for maximum 100 venues in a certain radius from a neighborhood, then I have the name, category and coordinates of each venue as seen in the dataframe below and example for one neighborhood.
+
+![](images/df2.png)
+
+It takes a while to extract all venues for all the neighborhoods, it resulted in 8992 venues in total.
+
+![](images/df3.png)
+
+The next part was preparing the data to run K-Means Clustering algorithm, so I used One-Hot Encoding to have a column for each category and group it by the neighborhood such as in the dataframe below.
+
+![](images/df4.png)
+
+Finally I could run the clustering algorithm in which I considered that I wanted to cluster the neighborhoods into three clusters, as we can see in the map below.
+
+![](images/map2.png)
+
+# Results
+
+
