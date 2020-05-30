@@ -49,3 +49,7 @@ For cluster 1, in which there are just three neighborhoods, we can notice a big 
 
 Cluster 1
 ![](images/df7.png)
+
+# Conclusion
+In a big city as Belo Horizonte, there are many different scenarios and problems for each region and neighborhood. This work provides the steps that lead to a very good way to visualize the demands and saturation of neighborhoods, which is very important to analyze when a restaurant or any kind of venue chain wants to open up a new place in the city. 
+I believe that the analysis could go way further than I did, using data regarding the income, population and other data. 
