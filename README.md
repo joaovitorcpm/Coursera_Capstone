@@ -8,3 +8,7 @@ The data regarding the list of neighborhoods and their respective boroughs will 
 ![](images/BH.png)
 
 Then, I'll extract geographical coordinates for each neighborhood usigin Geopy API and then get the venues of each neighborhood with Foursquare API.
+
+# Methodology
+First I gathered the list of all neighborhoods of Belo Horizonte at WikiPedia and used GeoPy to get latitude and longitude for each neighborhood to have a dataframe as below.
+![](images/df1.png)
