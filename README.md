@@ -5,10 +5,17 @@ The Goal of this study is to enable a restaurant chain to plan their investiment
 
 # Data
 The data regarding the list of neighborhoods and their respective boroughs will be extracted from https://pt.wikipedia.org/wiki/Lista_de_bairros_de_Belo_Horizonte, see below the map of boroughs in Belo Horizonte.
+
 ![](images/BH.png)
 
 Then, I'll extract geographical coordinates for each neighborhood usigin Geopy API and then get the venues of each neighborhood with Foursquare API.
 
 # Methodology
 First I gathered the list of all neighborhoods of Belo Horizonte at WikiPedia and used GeoPy to get latitude and longitude for each neighborhood to have a dataframe as below.
+
 ![](images/df1.png)
+
+Next step was visualizing all neighborhoods in a map, so I used Folium to add markers for each neighborhood thorugh it's coordinates and generate the map.
+
+![](images/map1.png)
+
